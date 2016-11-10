@@ -60,7 +60,7 @@ class MinifyAndSdist(sdist):
 
 
 setup(
-    name='django-formset-js',
+    name='django-modern-formset',
     version=__version__,
     description='Extend Django formsets with JavaScript',
     long_description=readme,
