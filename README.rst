@@ -1,8 +1,8 @@
-=================
-django-formset-js
-=================
+=====================
+django-modern-formset
+=====================
 
-A wrapper for a JavaScript formset helper.
+Django-formset-js fork with more features and modernized.
 
 Installing
 ----------
