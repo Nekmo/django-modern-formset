@@ -10,7 +10,7 @@ from distutils.core import Command
 from setuptools.command.sdist import sdist
 from setuptools import setup, find_packages
 
-from djangoformsetjs import __version__
+from modern_formset import __version__
 
 
 with open('README.rst') as f:
