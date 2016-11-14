@@ -209,10 +209,11 @@ function formIsDirty(form) {
             if($(form).is('[data-formset-form-deleted]')){
                 return
             }
-            if(_this.formIsDirty(form)){
+            if(!_this.formIsDirty(form)){
                 hasEmpty = true;
             }
         });
+        return hasEmpty;
     };
 
     Formset.prototype.formIsDirty = function(form) {
